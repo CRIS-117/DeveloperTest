@@ -1,0 +1,156 @@
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
+
+            <img src="../../../assets/img/logo.png" alt="smart pump" height="10%" width="10%" class="m-2" style="min-width: 50px;">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/usuario">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/balance">Balance</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="/edit">Edit</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Log Out</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="m-5">
+    <form>
+
+        <div class="form-group">
+            <label for="full_name_id" class="control-label">Name</label>
+            <input type="text" class="form-control" id="full_name_id" name="full_name" placeholder="Cristofer">
+        </div>
+
+        <div class="form-group">
+            <label for="full_name_id" class="control-label">Last Name</label>
+            <input type="text" class="form-control" id="full_name_id" name="full_name" placeholder="Angeles">
+        </div>
+
+        <div class="form-group">
+            <label for="street1_id" class="control-label">Address 1</label>
+            <input type="text" class="form-control" id="street1_id" name="street1"
+                placeholder="Street address, P.O. box, company name, c/o">
+        </div>
+
+        <div class="form-group">
+            <label for="street2_id" class="control-label">Address 2</label>
+            <input type="text" class="form-control" id="street2_id" name="street2"
+                placeholder="Apartment, suite, unit, building, floor, etc.">
+        </div>
+
+        <div class="form-group">
+            <label for="city_id" class="control-label">City</label>
+            <input type="text" class="form-control" id="city_id" name="city" placeholder="CDMX">
+        </div>
+
+        <div class="form-group">
+            <label for="state_id" class="control-label">State</label>
+            <select class="form-control" id="state_id">
+                <option value="AGS">Aguascalientes</option>
+                <option value="BC">Baja California</option>
+                <option value="BCS">Baja California Sur</option>
+                <option value="CAMP">Campeche</option>
+                <option value="DF" selected="1">Ciudad de México</option>
+                <option value="COAH">Coahuila</option>
+                <option value="COL">Colima</option>
+                <option value="DGO">Durango</option>
+                <option value="MEX">Estado de México</option>
+                <option value="GTO">Guanajuato</option>
+                <option value="GRO">Guerrero</option>
+                <option value="HGO">Hidalgo</option>
+                <option value="JAL">Jalisco</option>
+                <option value="MICH">Michoacán</option>
+                <option value="MOR">Morelos</option>
+                <option value="NAY">Nayarit</option>
+                <option value="NL">Nuevo León</option>
+                <option value="OAX">Oaxaca</option>
+                <option value="PUE">Puebla</option>
+                <option value="QRO">Querétaro</option>
+                <option value="QR">Quintana Roo</option>
+                <option value="SLP">San Luis Potosí</option>
+                <option value="SIN">Sinaloa</option>
+                <option value="SON">Sonora</option>
+                <option value="TAB">Tabasco</option>
+                <option value="TAMS">Tamaulipas</option>
+                <option value="TLAX">Tlaxcala</option>
+                <option value="VER">Veracruz</option>
+                <option value="YUC">Yucatán</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="zip_id" class="control-label">Zip Code</label>
+            <input type="text" class="form-control" id="zip_id" name="zip" placeholder="00102">
+        </div>
+    </form>
+</div>
+
+<div class="m-5">
+    <form action="#" class="credit-card-div">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+
+                <div class="row ">
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" placeholder="Enter Card Number" />
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <span class="help-block text-muted small-font"> Expiry Month</span>
+                        <input type="text" class="form-control" placeholder="MM" />
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <span class="help-block text-muted small-font"> Expiry Year</span>
+                        <input type="text" class="form-control" placeholder="YY" />
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <span class="help-block text-muted small-font"> CCV</span>
+                        <input type="text" class="form-control" placeholder="CCV" />
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3 my-auto">
+                        <img src="../../../assets/img/tdc-img.png" class="img-rounded img-fluid" width="45px"/>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-md-12 col-sm-3 col-xs-3 pad-adjust">
+                        <input type="text" class="form-control" placeholder="Name On The Card" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 pad-adjust">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" checked class="text-muted"> Save details for fast payments <a
+                                    href="#"> learn how ?</a>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group d-flex flex-row">
+                    <div class="m-3">
+                        <button type="submit" class="btn btn-outline-success m-1">Save</button>
+                    </div>
+                    <div class="m-3">
+                        <button type="submit" class="btn btn-outline-secondary m-1">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,153 @@
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
+
+            <img src="../../../assets/img/logo.png" alt="smart pump" height="10%" width="10%" class="m-2" style="min-width: 50px;">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/usuario">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/balance">Balance</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/edit">Edit</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Log Out</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="d-flex flex-column justify-content-center align-items-center p-5">
+    <img class="img-user" width="200px"
+        src="https://p16-va-default.akamaized.net/img/musically-maliva-obj/1665282759496710~c5_720x720.jpeg" alt="user">
+    <h3 class="m-1">CRISTOFER ANGELES S.</h3>
+    <form class="form-inline">
+        <button class="btn btn-outline-success m-2" type="button" (click)="balanceOpc()">Balance</button>
+        <button class="btn btn-outline-secondary m-2" type="button" (click)="editOpc()">Edit</button>
+    </form>
+</div>
+
+
+<div class="inf-balance d-flex flex-column  m-3">
+
+    <div class="d-flex flex-row bg-light rounded m-3 justify-content-between" style="min">
+        <div class="my-auto">
+            <div class="d-flex rounded-circle" style="height: 50px; width: 50px; overflow: hidden;">
+                <img class="" src="../../../assets/img/amazon-img.png" alt="amazon">
+            </div>
+        </div>
+        <div class="d-flex flex-column m-1">
+            <p class="m-auto" style="font-weight: bold;">Amazon.com, Inc.</p>
+            <p>Monday, June 14th</p>
+        </div>
+        <div class="d-flex flex-row my-auto">
+            <p class="m-2">$3430.45</p>
+            <div class="icon-arrow m-2" style="cursor: pointer;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-caret-right " viewBox="0 0 16 16">
+                    <path
+                        d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+                </svg>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="d-flex flex-row bg-light rounded m-3 justify-content-between" style="min">
+        <div class="my-auto">
+            <div class="d-flex rounded-circle" style="height: 50px; width: 50px; overflow: hidden;">
+                <img class="" src="../../../assets/img/microsoft-img.jpg" alt="microsoft">
+            </div>
+        </div>
+        <div class="d-flex flex-column m-1">
+            <p class="m-auto" style="font-weight: bold;">Microsoft Corporation.</p>
+            <p>Monday, June 16th</p>
+        </div>
+        <div class="d-flex flex-row my-auto">
+            <p class="m-2">$1202.34</p>
+            <div class="icon-arrow m-2" style="cursor: pointer;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-caret-right" viewBox="0 0 16 16">
+                    <path
+                        d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex flex-row bg-light rounded m-3 justify-content-between" style="min">
+        <div class="my-auto">
+            <div class="d-flex rounded-circle" style="height: 50px; width: 50px; overflow: hidden;">
+                <img class="" src="../../../assets/img/twitter-img.png" alt="twitter">
+            </div>
+        </div>
+        <div class="d-flex flex-column m-1">
+            <p class="m-auto" style="font-weight: bold;">Twitter, Inc.</p>
+            <p>Monday, June 14th</p>
+        </div>
+        <div class="d-flex flex-row my-auto">
+            <p class="m-2">$4352.78</p>
+            <div class="icon-arrow m-2" style="cursor: pointer;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-caret-right" viewBox="0 0 16 16">
+                    <path
+                        d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex flex-row bg-light rounded m-3 justify-content-between" style="min">
+        <div class="my-auto">
+            <div class="d-flex rounded-circle" style="height: 50px; width: 50px; overflow: hidden;">
+                <img class="" src="../../../assets/img/apple-img.png" alt="apple">
+            </div>
+        </div>
+        <div class="d-flex flex-column m-1">
+            <p class="m-auto" style="font-weight: bold;">Apple Computer Inc.</p>
+            <p>Monday, June 14th</p>
+        </div>
+        <div class="d-flex flex-row my-auto">
+            <p class="m-2">$2352.43</p>
+            <div class="icon-arrow m-2" style="cursor: pointer;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-caret-right" viewBox="0 0 16 16">
+                    <path
+                        d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex flex-row bg-light rounded m-3 justify-content-between" style="min">
+        <div class="my-auto">
+            <div class="d-flex rounded-circle" style="height: 50px; width: 50px; overflow: hidden;">
+                <img class="" src="../../../assets/img/netflix-img.jpg" alt="netflix">
+            </div>
+        </div>
+        <div class="d-flex flex-column m-1">
+            <p class="m-auto" style="font-weight: bold;">Netflix Inc.</p>
+            <p>Monday, June 18th</p>
+        </div>
+        <div class="d-flex flex-row my-auto">
+            <p class="m-2">$9453.13</p>
+            <div class="icon-arrow m-2" style="cursor: pointer;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-caret-right" viewBox="0 0 16 16">
+                    <path
+                        d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+                </svg>
+            </div>
+        </div>
+    </div>
+</div>
